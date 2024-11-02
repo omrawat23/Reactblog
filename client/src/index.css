@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* You can add custom styles here if needed */
+
+body {
+  @apply transition-colors duration-300;
+  font-family: 'Montserrat', sans-serif; /* Smooth transition */
+}
+
+body.light {
+  @apply bg-white text-black; /* Light mode styles */
+}
+
+body.dark {
+  @apply bg-gray-900 text-white; /* Dark mode styles */
+}

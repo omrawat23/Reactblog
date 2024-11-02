@@ -1,0 +1,31 @@
+/* Editor.css */
+.ql-toolbar {
+    background-color: gray-700; /* Set toolbar background to white */
+    border: 1px solid #ccc; /* Optional: add a border */
+  }
+  
+  .ql-toolbar .ql-stroke {
+    stroke: white; /* Change the color of icons if necessary */
+  }
+  
+  .ql-toolbar .ql-formats {
+    color: black; /* Set color for dropdowns and formats */
+  }
+
+  .ql-toolbar .ql-picker{
+    color: white;
+  }
+  
+  .ql-snow .ql-picker-options {
+    color: black;
+  }
+
+  /* Set content text color to white */
+.ql-editor {
+    background-color: #111827; /* Optional: Set a background color for the editor */
+    color: white; /* Set text color to white */
+  }
+  
+  .ql-editor p {
+    color: white; /* Ensure paragraph text is also white */
+  }
